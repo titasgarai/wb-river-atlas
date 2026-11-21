@@ -60,10 +60,6 @@ cd wb-river-atlas
 npm run dev
 ```
 
-Open <http://localhost:8000>.
-
-> Run through a local server. ES modules and data files do not work reliably when the HTML is opened directly from `file://`.
-
 ## Import your own data
 
 Use **Import Data** in the top bar.
