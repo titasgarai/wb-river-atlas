@@ -1,0 +1,11 @@
+{
+  "name": "west-bengal-river-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive West Bengal River Atlas with 601 OSM river paths, 912 WaterwayMap index, Natural Earth 1:10m boundaries, NWDP telemetry, and live GloFAS discharge.",
+  "scripts": {
+    "dev": "npx serve . -l 8000",
+    "dev:py": "python3 -m http.server 8000"
+  },
+  "type": "module"
+}

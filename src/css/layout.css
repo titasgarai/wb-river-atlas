@@ -1,0 +1,58 @@
+/* Top Bar */
+.topbar {
+  height: var(--topbar-h);
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 14px;
+  position: relative;
+  z-index: 1000;
+}
+.brand-group { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.brand-mark { width: 28px; height: 28px; border-radius: 999px; background: var(--action); color: #fff; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.brand-title { font-size: 1rem; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brand-sub { font-size: 0.7rem; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted-ink); display: block; line-height: 1.1; }
+.top-actions { display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
+
+/* Workspace Shell */
+.workspace { display: flex; height: calc(100vh - var(--topbar-h)); min-height: 520px; width: 100%; position: relative; background: var(--canvas); }
+
+/* Left Navigation Rail */
+.rail { width: var(--rail-w); flex-shrink: 0; background: var(--surface-alt); border-right: 1px solid var(--border); display: flex; flex-direction: column; height: 100%; z-index: 600; transition: transform 0.2s ease; }
+.rail-section { padding: 11px 13px; border-bottom: 1px solid var(--border); }
+.rail-list { flex: 1; overflow-y: auto; padding: 8px 10px; }
+.rail-list::-webkit-scrollbar, .inspector::-webkit-scrollbar { width: 6px; }
+.rail-list::-webkit-scrollbar-thumb, .inspector::-webkit-scrollbar-thumb { background: #3D4148; border-radius: 3px; }
+.rail-footer { padding: 9px 13px; border-top: 1px solid var(--border); background: var(--surface); font-family: var(--font-legal); font-size: 0.74rem; line-height: 1.35; color: var(--muted-ink); }
+.rail-footer a { color: var(--action-soft); text-decoration: none; }
+.rail-footer a:hover { text-decoration: underline; }
+
+/* Map Stage */
+.stage { flex: 1; position: relative; height: 100%; min-width: 0; background: var(--canvas); }
+#map { width: 100%; height: 100%; background: #0B0D10; }
+.atlas-loading .stage::after { content:'Loading West Bengal atlas'; position:absolute; inset:0; z-index:499; display:grid; place-items:center; background:rgba(0,0,0,.78); color:var(--action-soft); font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; animation:loadingFade 1.2s ease both; pointer-events:none; }
+@keyframes loadingFade { 0%,65% { opacity:1 } 100% { opacity:0 } }
+.stage-top-hud { position: absolute; top: 14px; left: 14px; z-index: 500; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.stage-hud { position: absolute; bottom: 18px; left: 14px; right: 54px; z-index: 500; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; pointer-events: none; }
+
+/* Right Inspector Sheet */
+.inspector { width: var(--inspector-w); flex-shrink: 0; background: var(--surface-raised); border-left: 1px solid var(--border); display: flex; flex-direction: column; height: 100%; overflow-y: auto; z-index: 600; }
+.inspector.hidden { display: none; }
+.insp-header { padding: 15px 17px 13px; border-bottom: 1px solid var(--border); display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; position: sticky; top: 0; background: var(--surface-raised); z-index: 5; }
+.insp-body { padding: 15px 17px 22px; display: flex; flex-direction: column; gap: 14px; }
+
+/* Responsive */
+#mobileRailBtn { display: none; }
+@media (max-width: 1060px) {
+  .inspector { position: absolute; right: 0; top: 0; bottom: 0; width: min(368px, 92vw); }
+}
+@media (max-width: 840px) {
+  #mobileRailBtn { display: inline-flex; }
+  .brand-sub, .segmented { display: none; }
+  .rail { position: absolute; left: 0; top: 0; bottom: 0; width: min(310px, 86vw); transform: translateX(-100%); }
+  .rail.open { transform: translateX(0); }
+  .pill-btn span.hide-sm { display: none; }
+}

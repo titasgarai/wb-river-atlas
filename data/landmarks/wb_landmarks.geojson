@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "farakka_barrage",
+        "name": "Farakka Barrage",
+        "category": "barrage",
+        "river_id": "ganga",
+        "district": "Murshidabad",
+        "notes": "Major barrage across the Ganga diverting water via the Feeder Canal into the Bhagirathi-Hooghly system."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.93306,
+          24.80444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mukutmanipur_dam",
+        "name": "Mukutmanipur Dam (Kangsabati)",
+        "category": "dam",
+        "river_id": "kangsabati",
+        "district": "Bankura",
+        "notes": "Earthen reservoir dam at the confluence of the Kangsabati and Kumari rivers in Bankura."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.7888,
+          22.96395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "durgapur_barrage",
+        "name": "Durgapur Barrage",
+        "category": "barrage",
+        "river_id": "damodar",
+        "district": "Paschim Bardhaman / Bankura",
+        "notes": "Constructed in 1955 across the Damodar River for irrigation and industrial water supply; SCADA-monitored on NWDP."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.3023,
+          23.4754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "teesta_barrage_gajoldoba",
+        "name": "Teesta Barrage (Gajoldoba)",
+        "category": "barrage",
+        "river_id": "teesta",
+        "district": "Jalpaiguri",
+        "notes": "Built in 1985 at Gajoldoba across the Teesta River to regulate irrigation canals across North Bengal."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.5899,
+          26.754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "jangipur_barrage",
+        "name": "Jangipur Barrage",
+        "category": "barrage",
+        "river_id": "hooghly",
+        "district": "Murshidabad",
+        "notes": "Barrage across the upper Bhagirathi River in Jangipur regulating flows downstream of Farakka."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.1032,
+          24.4691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tilpara_barrage",
+        "name": "Tilpara Barrage",
+        "category": "barrage",
+        "river_id": "mayurakshi",
+        "district": "Birbhum",
+        "notes": "309 m barrage on the Mayurakshi River near Suri, about 32 km downstream of Massanjore Dam."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.527,
+          23.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "prinsep_ghat",
+        "name": "Prinsep Ghat",
+        "category": "ghat",
+        "river_id": "hooghly",
+        "district": "Kolkata",
+        "notes": "Historic 1841 riverfront ghat along the Kolkata bank of the Hooghly River beside Vidyasagar Setu."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.3316,
+          22.55678
+        ]
+      }
+    }
+  ]
+}

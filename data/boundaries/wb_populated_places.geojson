@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "wb_populated_places",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Haora", "adm1name": "West Bengal", "pop_max": 4841638, "pop_min": 1027672, "featurecla": "Populated place", "latitude": 22.58039, "longitude": 88.329947 }, "geometry": { "type": "Point", "coordinates": [ 88.318516416977971, 22.584697601843814 ] } },
+{ "type": "Feature", "properties": { "name": "Alipur Duar", "adm1name": "West Bengal", "pop_max": 127342, "pop_min": 127342, "featurecla": "Populated place", "latitude": 26.483744, "longitude": 89.566667 }, "geometry": { "type": "Point", "coordinates": [ 89.566667, 26.4837439 ] } },
+{ "type": "Feature", "properties": { "name": "Haldia", "adm1name": "West Bengal", "pop_max": 200762, "pop_min": 200762, "featurecla": "Populated place", "latitude": 22.02567, "longitude": 88.058335 }, "geometry": { "type": "Point", "coordinates": [ 88.0583353, 22.0256698 ] } },
+{ "type": "Feature", "properties": { "name": "Bhatpara", "adm1name": "West Bengal", "pop_max": 483129, "pop_min": 483129, "featurecla": "Populated place", "latitude": 22.850426, "longitude": 88.520013 }, "geometry": { "type": "Point", "coordinates": [ 88.413626050996825, 22.852820907705631 ] } },
+{ "type": "Feature", "properties": { "name": "Medinipur", "adm1name": "West Bengal", "pop_max": 169127, "pop_min": 169127, "featurecla": "Populated place", "latitude": 22.330406, "longitude": 87.150019 }, "geometry": { "type": "Point", "coordinates": [ 87.333871965349218, 22.399723290749197 ] } },
+{ "type": "Feature", "properties": { "name": "Siliguri", "adm1name": "West Bengal", "pop_max": 515574, "pop_min": 515574, "featurecla": "Populated place", "latitude": 26.720422, "longitude": 88.455004 }, "geometry": { "type": "Point", "coordinates": [ 88.4550036, 26.720422 ] } },
+{ "type": "Feature", "properties": { "name": "Barddhaman", "adm1name": "West Bengal", "pop_max": 301725, "pop_min": 301725, "featurecla": "Populated place", "latitude": 23.250375, "longitude": 87.864962 }, "geometry": { "type": "Point", "coordinates": [ 87.8649621, 23.2503754 ] } },
+{ "type": "Feature", "properties": { "name": "Krishnanagar", "adm1name": "West Bengal", "pop_max": 145926, "pop_min": 145926, "featurecla": "Populated place", "latitude": 23.380342, "longitude": 88.530038 }, "geometry": { "type": "Point", "coordinates": [ 88.5300378, 23.3803416 ] } },
+{ "type": "Feature", "properties": { "name": "Asansol", "adm1name": "West Bengal", "pop_max": 1328000, "pop_min": 1328000, "featurecla": "Populated place", "latitude": 23.685279, "longitude": 86.981387 }, "geometry": { "type": "Point", "coordinates": [ 86.9813874, 23.6852792 ] } },
+{ "type": "Feature", "properties": { "name": "Kolkata", "adm1name": "West Bengal", "pop_max": 14787000, "pop_min": 4631392, "featurecla": "Admin-1 capital", "latitude": 22.496915, "longitude": 88.32273 }, "geometry": { "type": "Point", "coordinates": [ 88.369125504438856, 22.569578883795778 ] } }
+]
+}

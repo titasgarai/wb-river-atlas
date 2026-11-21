@@ -1,0 +1,35 @@
+/* earth-google Design Tokens (opendesignmd.com/designs/earth-google/) */
+:root {
+  --action: #1A73E8;
+  --action-hover: #2B7DE9;
+  --action-soft: #8AB4F8;
+  --canvas: #000000;
+  --surface: #000000;
+  --surface-raised: #1F1F1F;
+  --surface-alt: #26282C;
+  --border: #33363B;
+  --ink: #E8EAED;
+  --muted-ink: #A1A6AD;
+  --amber: #F9AB00;
+  --emerald: #34A853;
+  --cyan: #4FD1C5;
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-legal: Times, "Times New Roman", serif;
+  --topbar-h: 56px;
+  --rail-w: 320px;
+  --inspector-w: 374px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.5;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}

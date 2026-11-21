@@ -1,0 +1,559 @@
+[
+  {
+    "id": "ganga",
+    "name": "Ganga",
+    "alt_names": [
+      "Ganges",
+      "গঙ্গা"
+    ],
+    "region": "Gangetic Plain & Delta",
+    "waterwaymap_length_km": 1936,
+    "origin": "Gangotri Glacier, Uttarakhand",
+    "mouth": "Splits into Padma (Bangladesh) and Bhagirathi-Hooghly (Bay of Bengal)",
+    "wb_districts": [
+      "Malda",
+      "Murshidabad"
+    ],
+    "major_tributaries": [
+      "Mahananda"
+    ],
+    "basin_area_sq_km": 1050000,
+    "estimated_annual_discharge_mcm": 513100,
+    "discharge_point": [
+      24.80444,
+      87.93306
+    ],
+    "discharge_point_label": "Farakka Barrage",
+    "facts": [
+      "Enters West Bengal at Manikchak and splits into the Padma and Bhagirathi-Hooghly.",
+      "Farakka Barrage diverts up to 40,000 cusecs into the Feeder Canal to maintain Kolkata Port navigability."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf",
+      "https://en.wikipedia.org/wiki/Farakka_Barrage"
+    ],
+    "lat": 24.80444,
+    "lon": 87.93306
+  },
+  {
+    "id": "hooghly",
+    "name": "Bhagirathi-Hooghly",
+    "alt_names": [
+      "Hooghly",
+      "Bhagirathi",
+      "ভাগীরথী"
+    ],
+    "region": "Gangetic Plain & Delta",
+    "waterwaymap_length_km": 263,
+    "waterwaymap_split_segments_km": [
+      263,
+      132,
+      86,
+      3
+    ],
+    "origin": "Offtake from Ganga near Farakka/Jangipur, Murshidabad",
+    "mouth": "Bay of Bengal at Gangasagar",
+    "wb_districts": [
+      "Murshidabad",
+      "Nadia",
+      "Purba Bardhaman",
+      "Hooghly",
+      "North 24 Parganas",
+      "Howrah",
+      "Kolkata",
+      "South 24 Parganas",
+      "Purba Medinipur"
+    ],
+    "major_tributaries": [
+      "Damodar",
+      "Rupnarayan",
+      "Ajay",
+      "Mayurakshi",
+      "Jalangi",
+      "Churni",
+      "Babla"
+    ],
+    "wikidata_id": "Q739687",
+    "basin_area_sq_km_nabadwip": 22445,
+    "estimated_annual_discharge_mcm_nabadwip": 69962,
+    "discharge_point": [
+      23.6556,
+      88.135
+    ],
+    "discharge_point_label": "Hooghly-Ajay confluence (OSM node n12549544176)",
+    "waterwaymap_sample_url": "https://waterwaymap.org/river/Hooghly%20000308068437/",
+    "facts": [
+      "Widely regarded as the lifeline of West Bengal for trade, navigation, and Kolkata Port.",
+      "Receives major western plateau tributaries including Ajay, Damodar, and Rupnarayan."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/Hooghly%20000308068437/",
+      "https://blog.bssei.in/en/west-bengal-geography/",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 23.6556,
+    "lon": 88.135
+  },
+  {
+    "id": "damodar",
+    "name": "Damodar",
+    "alt_names": [
+      "দামোদর"
+    ],
+    "region": "Western Plateau & Rarh",
+    "waterwaymap_length_km": 561,
+    "origin": "Chulha Pani Hill, Chota Nagpur Plateau, Jharkhand",
+    "mouth": "Hooghly River",
+    "wb_districts": [
+      "Paschim Bardhaman",
+      "Bankura",
+      "Purba Bardhaman",
+      "Hooghly",
+      "Howrah"
+    ],
+    "major_tributaries": [
+      "Barakar",
+      "Konar"
+    ],
+    "basin_area_sq_km": 20874,
+    "estimated_annual_discharge_mcm": 16919,
+    "discharge_point": null,
+    "discharge_point_label": "Durgapur Barrage (verify main-channel coords)",
+    "facts": [
+      "Historically known as the 'Sorrow of Bengal' due to frequent floods; now regulated by Damodar Valley Corporation (DVC) dams and Durgapur Barrage."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://testbook.com/west-bengal-gk/rivers-of-west-bengal",
+      "https://blog.bssei.in/en/west-bengal-geography/",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 23.4754,
+    "lon": 87.3023
+  },
+  {
+    "id": "subarnarekha",
+    "name": "Subarnarekha",
+    "alt_names": [
+      "সুবর্ণরেখা"
+    ],
+    "region": "Western Plateau & Rarh",
+    "waterwaymap_length_km": 490,
+    "origin": "Piska / Nagri, near Ranchi, Jharkhand",
+    "mouth": "Bay of Bengal (via Odisha)",
+    "wb_districts": [
+      "Jhargram",
+      "Paschim Medinipur"
+    ],
+    "major_tributaries": [
+      "Kharkai",
+      "Dulung"
+    ],
+    "discharge_point": null,
+    "discharge_point_label": "Gopiballavpur / Jhargram stretch (verify coords)",
+    "facts": [
+      "Flows through Jhargram and Paschim Medinipur in West Bengal before entering Odisha.",
+      "Monitored via manual hourly river water level stations on the National Water Data Portal."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://testbook.com/west-bengal-gk/rivers-of-west-bengal",
+      "https://nwdp.nwic.gov.in/dataset/river-water-level-manual-hourly-west-bengal-surface-water-sw-subernarekha"
+    ],
+    "lat": 22.3086,
+    "lon": 86.9164
+  },
+  {
+    "id": "teesta",
+    "name": "Teesta",
+    "alt_names": [
+      "Tista",
+      "তিস্তা"
+    ],
+    "region": "North Bengal (Himalayan)",
+    "waterwaymap_length_km": 365,
+    "origin": "Tso Lamo Lake, Sikkim",
+    "mouth": "Brahmaputra (Jamuna), Bangladesh",
+    "wb_districts": [
+      "Darjeeling",
+      "Kalimpong",
+      "Jalpaiguri",
+      "Cooch Behar"
+    ],
+    "major_tributaries": [
+      "Rangeet",
+      "Riyang",
+      "Lish",
+      "Gish",
+      "Chel"
+    ],
+    "basin_area_sq_km": 12318,
+    "estimated_annual_discharge_mcm": 29947,
+    "discharge_point": null,
+    "discharge_point_label": "Teesta Barrage, Gajoldoba (verify coords)",
+    "facts": [
+      "Major Himalayan river forming deep gorges between Sikkim and West Bengal before entering the North Bengal plains.",
+      "Regulated in Jalpaiguri by the Teesta Barrage at Gajoldoba."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://testbook.com/west-bengal-gk/rivers-of-west-bengal",
+      "https://blog.bssei.in/en/west-bengal-geography/",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 26.754,
+    "lon": 88.5899
+  },
+  {
+    "id": "kangsabati",
+    "name": "Kangsabati",
+    "alt_names": [
+      "Kasai",
+      "Kansabati",
+      "কংসাবতী"
+    ],
+    "region": "Western Plateau & Rarh",
+    "waterwaymap_length_km": 358,
+    "origin": "Chota Nagpur Plateau, Purulia",
+    "mouth": "Joins Keleghai to form the Haldi River (into Hooghly)",
+    "wb_districts": [
+      "Purulia",
+      "Bankura",
+      "Paschim Medinipur",
+      "Purba Medinipur"
+    ],
+    "major_tributaries": [
+      "Kumari"
+    ],
+    "basin_area_sq_km": 10820,
+    "estimated_annual_discharge_mcm": 7842,
+    "discharge_point": [
+      22.963949,
+      86.7888
+    ],
+    "discharge_point_label": "Mukutmanipur Dam, Bankura",
+    "facts": [
+      "Impounded at Mukutmanipur Dam in Bankura district, one of West Bengal's largest earthen dams (11,270 m length)."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://blog.bssei.in/en/west-bengal-geography/",
+      "https://en.wikipedia.org/wiki/Mukutmanipur_Dam",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 22.96395,
+    "lon": 86.7888
+  },
+  {
+    "id": "ajay",
+    "name": "Ajay",
+    "alt_names": [
+      "Ajoy",
+      "অজয়"
+    ],
+    "region": "Western Plateau & Rarh",
+    "waterwaymap_length_km": 304,
+    "origin": "Ajay Hills, Bihar",
+    "mouth": "Bhagirathi-Hooghly at Katwa",
+    "wb_districts": [
+      "Paschim Bardhaman",
+      "Birbhum",
+      "Purba Bardhaman"
+    ],
+    "major_tributaries": [
+      "Hinglo",
+      "Kunur"
+    ],
+    "basin_area_sq_km": 6174,
+    "estimated_annual_discharge_mcm": 4335,
+    "discharge_point": [
+      23.6556,
+      88.135
+    ],
+    "discharge_point_label": "Confluence with Hooghly (OSM node n12549544176)",
+    "facts": [
+      "Forms a natural boundary between Birbhum and Bardhaman districts before meeting the Hooghly."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://waterwaymap.org/river/Hooghly%20000308068437/",
+      "https://testbook.com/west-bengal-gk/rivers-of-west-bengal",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 23.6556,
+    "lon": 88.135
+  },
+  {
+    "id": "ichamati",
+    "name": "Ichamati",
+    "alt_names": [
+      "ইছামতী নদী"
+    ],
+    "region": "Gangetic Plain & Delta",
+    "waterwaymap_length_km": 277,
+    "origin": "Distributary of Mathabhanga",
+    "mouth": "Kalindi / Raimangal tidal system (Sundarbans)",
+    "wb_districts": [
+      "Nadia",
+      "North 24 Parganas"
+    ],
+    "major_tributaries": [
+      "Mathavanga",
+      "Jamuna River"
+    ],
+    "discharge_point": [
+      23.4047,
+      88.7103
+    ],
+    "discharge_point_label": "Mathavanga inflow (OSM node n3349810944)",
+    "waterwaymap_sample_url": "https://waterwaymap.org/river/Ichamati%20001178937277/",
+    "facts": [
+      "Transboundary deltaic river flowing across India (West Bengal) and Bangladesh (Khulna)."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/Ichamati%20001178937277/",
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/"
+    ],
+    "lat": 23.4047,
+    "lon": 88.7103
+  },
+  {
+    "id": "jalangi",
+    "name": "Jalangi",
+    "alt_names": [
+      "জলঙ্গী"
+    ],
+    "region": "Gangetic Plain & Delta",
+    "waterwaymap_length_km": 273,
+    "origin": "Offtake from Padma River",
+    "mouth": "Bhagirathi-Hooghly near Nabadwip",
+    "wb_districts": [
+      "Murshidabad",
+      "Nadia"
+    ],
+    "major_tributaries": [
+      "Bhairab"
+    ],
+    "discharge_point": null,
+    "discharge_point_label": "Krishnanagar / Nabadwip stretch (verify coords)",
+    "facts": [
+      "One of the three classic Nadia rivers (alongside Bhagirathi and Mathabhanga-Churni)."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://en.wikipedia.org/wiki/List_of_rivers_of_West_Bengal"
+    ],
+    "lat": 23.4117,
+    "lon": 88.3806
+  },
+  {
+    "id": "dwarakeshwar",
+    "name": "Dwarakeshwar",
+    "alt_names": [
+      "Dwarakeswar",
+      "দ্বারকেশ্বর"
+    ],
+    "region": "Western Plateau & Rarh",
+    "waterwaymap_length_km": 244,
+    "origin": "Chota Nagpur Plateau foothills, Purulia",
+    "mouth": "Joins Shilabati at Ghatal to form Rupnarayan River",
+    "wb_districts": [
+      "Purulia",
+      "Bankura",
+      "Hooghly",
+      "Paschim Medinipur"
+    ],
+    "major_tributaries": [
+      "Gandheshwari"
+    ],
+    "basin_area_sq_km": 5174,
+    "estimated_annual_discharge_mcm": 3697,
+    "discharge_point": null,
+    "discharge_point_label": "Bankura / Arambagh stretch (verify coords)",
+    "facts": [
+      "Passes through Bankura town and merges with the Shilabati to form the Rupnarayan River."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://blog.bssei.in/en/west-bengal-geography/",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 23.25,
+    "lon": 87.07
+  },
+  {
+    "id": "mahananda",
+    "name": "Mahananda",
+    "alt_names": [
+      "মহানন্দা"
+    ],
+    "region": "North Bengal (Himalayan)",
+    "waterwaymap_length_km": 241,
+    "origin": "Mahaldiram Hills, Darjeeling",
+    "mouth": "Ganga / Padma system",
+    "wb_districts": [
+      "Darjeeling",
+      "Uttar Dinajpur",
+      "Malda"
+    ],
+    "major_tributaries": [
+      "Balasan",
+      "Mechi",
+      "Kankai"
+    ],
+    "basin_area_sq_km": 9627,
+    "estimated_annual_discharge_mcm": 23129,
+    "discharge_point": null,
+    "discharge_point_label": "Siliguri / Malda stretch (verify coords)",
+    "facts": [
+      "Major North Bengal river flowing through Siliguri and Malda before joining the Ganga system."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://blog.bssei.in/en/west-bengal-geography/",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 26.71,
+    "lon": 88.43
+  },
+  {
+    "id": "jaldhaka",
+    "name": "Jaldhaka",
+    "alt_names": [
+      "জলঢাকা"
+    ],
+    "region": "North Bengal (Himalayan)",
+    "waterwaymap_length_km": 232,
+    "origin": "Kupup / Bitang Lake area, Sikkim-Bhutan border",
+    "mouth": "Brahmaputra (via Dharla, Bangladesh)",
+    "wb_districts": [
+      "Kalimpong",
+      "Jalpaiguri",
+      "Cooch Behar"
+    ],
+    "major_tributaries": [
+      "Murti",
+      "Diana",
+      "Ghatia",
+      "Mujnai",
+      "Sutanga",
+      "Dharala",
+      "Kumlai"
+    ],
+    "basin_area_sq_km": 5790,
+    "estimated_annual_discharge_mcm": 17212,
+    "discharge_point": null,
+    "discharge_point_label": "Nagrakata / Mathabhanga stretch (verify coords)",
+    "facts": [
+      "Important Dooars river flowing through Kalimpong, Jalpaiguri, and Cooch Behar."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://blog.bssei.in/en/west-bengal-geography/",
+      "https://testbook.com/question-answer/the-north-flowing-rivers-of-west-bengal-are--607abbe05643f625ffc3ec3d",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 26.8707,
+    "lon": 88.8939
+  },
+  {
+    "id": "mayurakshi",
+    "name": "Mayurakshi",
+    "alt_names": [
+      "ময়ূরাক্ষী"
+    ],
+    "region": "Western Plateau & Rarh",
+    "waterwaymap_length_km": 203,
+    "origin": "Trikut Hill, Deoghar, Jharkhand",
+    "mouth": "Bhagirathi-Hooghly",
+    "wb_districts": [
+      "Birbhum",
+      "Murshidabad"
+    ],
+    "major_tributaries": [
+      "Bakreshwar",
+      "Kopai",
+      "Dwarka",
+      "Brahmani"
+    ],
+    "basin_area_sq_km": 9345,
+    "estimated_annual_discharge_mcm": 7228,
+    "discharge_point": null,
+    "discharge_point_label": "Tilpara Barrage, Suri (verify coords)",
+    "facts": [
+      "Originates at Trikut Hills in Jharkhand and waters the agricultural plains of Birbhum and Murshidabad."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://testbook.com/west-bengal-gk/rivers-of-west-bengal",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 23.91,
+    "lon": 87.527
+  },
+  {
+    "id": "torsa",
+    "name": "Torsa",
+    "alt_names": [
+      "Torsha",
+      "তোর্সা"
+    ],
+    "region": "North Bengal (Himalayan)",
+    "waterwaymap_length_km": 161,
+    "origin": "Chumbi Valley, Tibet",
+    "mouth": "Brahmaputra (Jamuna), Bangladesh",
+    "wb_districts": [
+      "Alipurduar",
+      "Cooch Behar"
+    ],
+    "major_tributaries": [
+      "Kaljani",
+      "Shil Torsa",
+      "Mara Torsa"
+    ],
+    "basin_area_sq_km": 7897,
+    "estimated_annual_discharge_mcm": 23097,
+    "discharge_point": null,
+    "discharge_point_label": "Cooch Behar / Hasimara stretch (verify coords)",
+    "facts": [
+      "Transboundary Himalayan river entering the Dooars through Bhutan and flowing past Cooch Behar."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://blog.bssei.in/en/west-bengal-geography/",
+      "https://sandrp.in/wp-content/uploads/2017/03/west-bengal.pdf"
+    ],
+    "lat": 26.3187,
+    "lon": 89.4564
+  },
+  {
+    "id": "matla",
+    "name": "Matla",
+    "alt_names": [
+      "মাতলা"
+    ],
+    "region": "Sundarbans & Tidal Delta",
+    "waterwaymap_length_km": 100,
+    "origin": "Tidal estuary fed by Bidyadhari / Sundarbans creeks",
+    "mouth": "Bay of Bengal",
+    "wb_districts": [
+      "South 24 Parganas"
+    ],
+    "major_tributaries": [
+      "Bidyadhari",
+      "Piyali"
+    ],
+    "discharge_point": null,
+    "discharge_point_label": "Canning (tidal — GloFAS models freshwater runoff only)",
+    "facts": [
+      "Major Sundarbans tidal river known for strong monsoon turbulence near Canning."
+    ],
+    "source_urls": [
+      "https://waterwaymap.org/river/region/IN-West%20Bengal/",
+      "https://www.indianetzone.com/rivers_west_bengal"
+    ],
+    "lat": 22.314,
+    "lon": 88.6651
+  }
+]
