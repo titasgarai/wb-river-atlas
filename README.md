@@ -1,61 +1,106 @@
 # West Bengal River Atlas
 
-An interactive, modular hydrological web application for exploring **912 West Bengal rivers**, **601 real curved OpenStreetMap river paths**, **Natural Earth 1:10m boundaries**, **major barrages/dams/ghats**, **NWDP CWC telemetry**, and **live Open-Meteo GloFAS flood discharge forecasts**—styled with the `earth-google` dark cartographic design system.
+[![Live Map](https://img.shields.io/badge/Live-GitHub%20Pages-1A73E8?style=for-the-badge&logo=github)](https://titasgarai.github.io/wb-river-atlas/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES%20Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111)](#technology)
+[![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?style=for-the-badge&logo=leaflet)](https://leafletjs.com/)
 
-## Quickstart (Local Dev)
+Interactive atlas for exploring rivers, infrastructure, districts, and hydrological telemetry across West Bengal.
 
-Because the app loads modular ES scripts (`src/js/*.js`) and external GeoJSON/JSON files (`data/**/*.geojson`) via `fetch()`, run it from a local HTTP server (not `file://`):
+**[Open the live atlas](https://titasgarai.github.io/wb-river-atlas/)**
+
+## Explore
+
+| Map content | Included |
+|---|---:|
+| West Bengal river index | 912 |
+| Featured river profiles | 15 |
+| OSM river paths | 601 |
+| Barrages, dams, and ghats | 7 |
+| NWDP telemetry stations | 2 |
+| District boundaries | 23 |
+
+### Key capabilities
+
+- Search rivers, tributaries, districts, and gauge stations.
+- Switch among 601 OSM river paths or open the 912-river WaterwayMap index.
+- Inspect featured river length, districts, tributaries, linked infrastructure, and GloFAS discharge.
+- View monthly NWDP telemetry charts and station details.
+- Filter map markers and boundaries by region or district.
+- Import NWDP telemetry CSV or custom GeoJSON data.
+- Switch between dark, satellite, and terrain basemaps.
+
+<details>
+<summary><strong>Map layers</strong></summary>
+
+- **OSM River Paths:** Simplified OpenStreetMap waterway geometry.
+- **Featured Rivers:** Curated river profiles with hydrological context.
+- **Barrages & Ghats:** Infrastructure points linked to their parent rivers.
+- **NWDP Gauges:** Cleaned CWC telemetry station summaries.
+- **WB Border:** West Bengal and international boundary overlays.
+- **Districts:** District polygons for regional filtering.
+- **Imported Data:** CSV or GeoJSON content loaded during the session.
+
+</details>
+
+## Run locally
+
+No build step is required.
+
+### Python
 
 ```bash
-# Option 1: Python (zero install)
-python3 -m http.server 8000
+cd wb-river-atlas
+python -m http.server 8000
+```
 
-# Option 2: Node.js
+### Node.js
+
+```bash
+cd wb-river-atlas
 npm run dev
 ```
 
-Then open **http://localhost:8000** in your browser.
+Open <http://localhost:8000>.
 
-## Project Structure
+> Run through a local server. ES modules and data files do not work reliably when the HTML is opened directly from `file://`.
+
+## Import your own data
+
+Use **Import Data** in the top bar.
+
+- `.csv` files may be imported as NWDP station telemetry.
+- `.geojson` and `.json` files may be imported as custom map layers.
+
+Imported layers remain in the current browser session.
+
+## Technology
+
+- HTML5, modular CSS, and native JavaScript ES Modules
+- Leaflet 1.9.4
+- Chart.js 4.4.1
+- Lucide Icons
+- GitHub Actions and GitHub Pages
+
+## Data sources
+
+- [OpenStreetMap](https://www.openstreetmap.org/) and [WaterwayMap](https://waterwaymap.org/river/region/IN-West%20Bengal/) for river geometry
+- [National Water Data Portal](https://nwdp.nwic.gov.in/group/water-quantity) for NWDP/CWC telemetry
+- [Open-Meteo GloFAS](https://flood-api.open-meteo.com/v1/flood) for discharge forecasts
+- [Natural Earth](https://www.naturalearthdata.com/) for boundaries and cultural geography
+- Esri ArcGIS for basemap tiles
+
+## Repository structure
 
 ```text
-wb-river-atlas/
-├── index.html                        # Semantic HTML shell
-├── package.json                      # Local dev scripts
-├── README.md                         # Project overview & quickstart
-├── CONTEXT.md                        # Hydrological domain & data provenance
-├── DESIGN.md                         # earth-google dark design tokens & layout rules
-├── docs/
-│   ├── PLAN.md                       # Phased roadmap (v1 -> v3)
-│   ├── TECHNICAL_ARCHITECTURE.md     # Module graph, rendering & API architecture
-│   └── DATA_SCHEMA.md                # JSON, GeoJSON & NWDP CSV schemas
-├── src/
-│   ├── css/
-│   │   ├── tokens.css                # earth-google colors, typography & spacing variables
-│   │   ├── layout.css                # Topbar, left rail, map stage, inspector & responsive rules
-│   │   └── components.css            # Chips, KPI cards, charts, modals & Leaflet overrides
-│   └── js/
-│       ├── main.js                   # Entry point & event wiring
-│       ├── config.js                 # Basemaps, bounds, API endpoints & NWDP catalog
-│       ├── state.js                  # Centralized in-memory state store
-│       ├── dataLoader.js             # Parallel fetch loader for data/ assets
-│       ├── apiClients.js             # Open-Meteo GloFAS, Overpass API & NWDP CSV parser
-│       ├── mapEngine.js              # Leaflet canvas renderer, layers & path highlighting
-│       └── uiController.js           # Sidebar, inspector sheets, Chart.js & modals
-├── data/
-│   ├── rivers/                       # major_rivers.json, waterwaymap_912_index.json, wb_osm_rivers_lite.geojson
-│   ├── boundaries/                   # Natural Earth 1:10m WB state, borders, cities, urban areas, ports
-│   ├── landmarks/                    # wb_landmarks.geojson (barrages, dams, ghats)
-│   └── telemetry/                    # cwc_telemetry_clean.json (cleaned NWDP CWC monthly series)
-└── scripts/
-    ├── clean_nwdp_csv.py             # Cleans NWDP CWC/WB-SW CSVs into compact JSON
-    ├── fetch_osm_rivers.py           # Refreshes WB OSM river polylines via Overpass API
-    └── clip_natural_earth.py         # Clips Natural Earth 1:10m shapefiles to West Bengal
+index.html
+src/
+  css/
+  js/
+data/
+  boundaries/
+  landmarks/
+  rivers/
+  telemetry/
+scripts/
+.github/workflows/deploy-pages.yml
 ```
-
-## Data Sources & Attribution
-- **River Network:** [WaterwayMap IN-West Bengal](https://waterwaymap.org/river/region/IN-West%20Bengal/) & OpenStreetMap contributors (ODbL).
-- **Hydrological Telemetry:** [National Water Data Portal (NWDP)](https://nwdp.nwic.gov.in/group/water-quantity) — Central Water Commission (CWC) & West Bengal Surface Water Department.
-- **Live Flood Forecasts:** [Open-Meteo Global Flood API](https://flood-api.open-meteo.com/v1/flood) (Copernicus GloFAS).
-- **Boundaries & Cities:** [Natural Earth 1:10m Cultural Vectors](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/) (Public Domain).
-- **Basemaps:** Esri ArcGIS Online MapServer (Dark Gray Canvas, World Imagery, World Topo).
